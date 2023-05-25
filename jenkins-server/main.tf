@@ -12,7 +12,7 @@ terraform {
     bucket = "okougwu-docker-tfstate"
     dynamodb_table = "app-state"
     key    = "LockID"
-    region = "us-east-1"
+    region = "eu-west-2"
     profile = "Okougwu"
   }
 }
